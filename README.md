@@ -100,6 +100,23 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/constants/float64/max-safe-fibonacci`][@stdlib/constants/float64/max-safe-fibonacci]: maximum safe Fibonacci number when stored in double-precision floating-point format.
+-   [`@stdlib/constants/float64/max-safe-nth-lucas`][@stdlib/constants/float64/max-safe-nth-lucas]: maximum safe nth Lucas number when stored in double-precision floating-point format.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -160,6 +177,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [lucas-number]: https://en.wikipedia.org/wiki/Lucas_number
 
 [ieee754]: https://en.wikipedia.org/wiki/IEEE_754-1985
+
+<!-- <related-links> -->
+
+[@stdlib/constants/float64/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-fibonacci
+
+[@stdlib/constants/float64/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-nth-lucas
+
+<!-- </related-links> -->
 
 </section>
 
