@@ -24,30 +24,38 @@ limitations under the License.
 
 > Maximum safe [Lucas number][lucas-number] when stored in [double-precision floating-point][ieee754] format.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/constants-float64-max-safe-lucas
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var FLOAT64_MAX_SAFE_LUCAS = require( '@stdlib/constants-float64-max-safe-lucas' );
+FLOAT64_MAX_SAFE_LUCAS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var FLOAT64_MAX_SAFE_LUCAS = require( 'path/to/vendor/umd/constants-float64-max-safe-lucas/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.FLOAT64_MAX_SAFE_LUCAS;
+})();
+</script>
 ```
 
 #### FLOAT64_MAX_SAFE_LUCAS
@@ -69,8 +77,13 @@ var bool = ( FLOAT64_MAX_SAFE_LUCAS === 7639424778862807 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var FLOAT64_MAX_SAFE_LUCAS = require( '@stdlib/constants-float64-max-safe-lucas' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var v;
 var i;
@@ -102,6 +115,11 @@ for ( i = 0; i < 100; i++ ) {
         console.log( 'Safe:   %d', v );
     }
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -200,9 +218,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/float64/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-fibonacci
+[@stdlib/constants/float64/max-safe-fibonacci]: https://github.com/stdlib-js/constants-float64-max-safe-fibonacci/tree/umd
 
-[@stdlib/constants/float64/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-nth-lucas
+[@stdlib/constants/float64/max-safe-nth-lucas]: https://github.com/stdlib-js/constants-float64-max-safe-nth-lucas/tree/umd
 
 <!-- </related-links> -->
 
