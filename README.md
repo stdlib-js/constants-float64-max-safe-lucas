@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import FLOAT64_MAX_SAFE_LUCAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@esm/index.mjs';
+import FLOAT64_MAX_SAFE_LUCAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@v0.0.8-esm/index.mjs';
 ```
 
 #### FLOAT64_MAX_SAFE_LUCAS
@@ -59,7 +59,7 @@ var bool = ( FLOAT64_MAX_SAFE_LUCAS === 7639424778862807 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX_SAFE_LUCAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@esm/index.mjs';
+import FLOAT64_MAX_SAFE_LUCAS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@v0.0.8-esm/index.mjs';
 
 var v;
 var i;
