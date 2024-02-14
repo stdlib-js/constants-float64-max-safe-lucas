@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+FLOAT64_MAX_SAFE_LUCAS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-max-safe-lucas/tags). For example,
+
+```javascript
 FLOAT64_MAX_SAFE_LUCAS = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@v0.2.0-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var FLOAT64_MAX_SAFE_LUCAS = require( 'path/to/vendor/umd/constants-float64-max-
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -92,7 +97,7 @@ var bool = ( FLOAT64_MAX_SAFE_LUCAS === 7639424778862807 );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-lucas@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
